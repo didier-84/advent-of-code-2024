@@ -4,3 +4,16 @@ Here is my take on the daily challenges of the [Advent of Code 2024](https://adv
 
 I've chosen to solve the challenges in [Lua](https://www.lua.org/); my solutions can be run in a terminal.
 
+## How to run the challenges
+
+With Lua installed on your machine, just run the following in your terminal:
+
+```bash
+# Run with test input values
+lua day-01/part-1.lua test
+lua day-01/part-2.lua test
+
+# Rue with real input values
+lua day-01/part-1.lua
+lua day-01/part-2.lua
+```
