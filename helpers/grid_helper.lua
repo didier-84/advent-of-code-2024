@@ -112,14 +112,30 @@ function helper.south_east_cell(grid, row_index, col_index)
   return helper.cell_value(grid, row_index - 1, col_index + 1)
 end
 
-function helper.array_to_string(array)
+function helper.array_to_string(array, separator)
   local string = ''
 
   for i=1, #array do
     string = string .. array[i]
+
+    if separator ~= nil and i ~= #array then
+      string = string .. separator
+    end
   end
 
   return string
+end
+
+function helper.array_shift(array)
+  local new_array = {}
+
+  for i, v in ipairs(array) do
+    if i > 1 then
+      table.insert(new_array, v)
+    end
+  end
+
+  return array[1], new_array
 end
 
 function helper.print_grid(grid)
