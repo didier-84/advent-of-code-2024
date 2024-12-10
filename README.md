@@ -1,8 +1,10 @@
 # Advent of Code 2024
 
-Here is my take on the daily challenges of the [Advent of Code 2024](https://adventofcode.com/2024).
+Here is my take on the daily puzzles of the [Advent of Code 2024](https://adventofcode.com/2024).
 
-I've chosen to solve the challenges in [Lua](https://www.lua.org/); my solutions can be run in a terminal.
+This year I'm solving the puzzled in [Lua](https://www.lua.org/).
+
+My solutions can be run in a terminal.
 
 ## How to run the challenges
 
