@@ -1,7 +1,7 @@
--- Day 10 - Part 2
+-- Day 12 - Part 2
 
 local params = {...}
-local day    = '10'
+local day    = '12'
 local part   = '2'
 
 function run(input)
